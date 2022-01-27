@@ -12,9 +12,9 @@ module.exports = {
       padding: '1.5rem',
     },
     colors: {
-      black: '#201E1C',
-      white: '#fff',
-      purple: '#3f3cbb',
+      'black': '#201E1C',
+      'white': '#fff',
+      'purple': '#3f3cbb',
     }
   },
   plugins: [],

@@ -10,7 +10,7 @@ const IndexDescriptionSection = () => {
           programación; mezclamos sesiones en vivo y retos de código para
           practiques lo aprendido.
         </p>
-        <button className=" inline-flex items-center bg-purple-600 p-4 rounded text-white hover:bg-purple-500 font-semibold py-4 px-4 border border-purple-400 shadow-2xl mb-6">
+        <button className="inline-flex items-center bg-[#7e22ce] p-4 rounded text-white font-semibold py-4 px-4 shadow-2xl mb-6">
           <span style={{ fontFamily: "Roboto" }}>
             Inscríbete a nuestro curso
           </span>

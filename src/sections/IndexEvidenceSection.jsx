@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const IndexEvidenceSection = () => {
   return (
-    <div className="w-screen justify-center text-center container place-content-center v-screen bg-black py-5">
+    <div className="w-screen conteiner justify-center text-center container place-content-center v-screen bg-black py-5">
       <h1 className="text-3xl mb-10 text-white">
         Una mejor experencia de aprendizaje
       </h1>
@@ -12,7 +12,7 @@ const IndexEvidenceSection = () => {
         habilidades de programacion y ejercitar la resolución de problemas;
         además, tendrás retroalimentación activa de tus tutores.
       </p>
-      <div className="shadow-2xl bg-[#282623] rounded p-4 border border-black">
+      <div className="shadow-2xl bg-[#282623] rounded pt-4 pb-0 border border-black">
         <StaticImage src="./ivan.jpg" alt="No encontrada" className="w-1/2" />
         <br />
         <p className="font-semibold text-white text-lg">
@@ -20,7 +20,7 @@ const IndexEvidenceSection = () => {
         </p>
       </div>
       <br />
-      <div className="shadow-2xl bg-[#282623] rounded p-4 border border-black">
+      <div className="shadow-2xl bg-[#282623] rounded pt-4 pb-0 border border-black">
         <StaticImage src="./ivan.jpg" alt="No encontrada" className="w-1/2" />
         <br />
         <p className="font-semibold text-white text-lg">
@@ -28,14 +28,14 @@ const IndexEvidenceSection = () => {
         </p>
       </div>
       <br />
-      <div className='shadow-2xl bg-[#282623] rounded p-4 border border-black'>
-        <StaticImage src="./ivan.jpg" alt="No encontrada" className="w-1/2"/>
+      <div className='shadow-2xl bg-[#282623] rounded pt-4 pb-0 border border-black'>
+        <StaticImage src="./genaro.jpg" alt="No encontrada" className="w-1/2"/>
         <br />
         <p className='font-semibold text-white text-lg'>
           Resuelve ejercicios
         </p>
       </div>
-
+      <br />
     </div>
   )
 }
