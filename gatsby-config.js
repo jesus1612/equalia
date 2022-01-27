@@ -35,6 +35,16 @@ module.exports = {
     },
     'gatsby-plugin-postcss',
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          'material icons',
+          'roboto:300,400,500,700',
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: 'gatsby-plugin-sass',
       options: {
         postCssPlugins: [autoprefixer()],

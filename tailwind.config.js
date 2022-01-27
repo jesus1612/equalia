@@ -4,6 +4,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'sans': ['Roboto']
+    },
+    container: {
+      center: true,
+    },
   },
   plugins: [],
 }
