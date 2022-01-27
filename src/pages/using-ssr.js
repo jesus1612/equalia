@@ -1,3 +1,4 @@
+/* eslint-disable limited-exports-page-templates */
 import * as React from "react"
 import { Link } from "gatsby"
 
