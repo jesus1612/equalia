@@ -6,7 +6,7 @@ import '../styles/materialIcons.css'
 const FeatureItem = ({ logo, text }) => {
   return (
     <div className="flex">
-      <span className="material-icons">{logo}</span>
+      <span className="material-icons pr-2">{logo}</span>
       <p className="text-base">{text}</p>
     </div>
   )
