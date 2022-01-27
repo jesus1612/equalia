@@ -30,7 +30,7 @@ const IndexFeaturesSection = () => {
           Fecha tentativa de inicio: <br />
           15 de febrero
         </p>
-        <button className="inline-flex items-center bg-gray-100 p-4 rounded text-black font-semibold py-4 px-4 border border-gray-100 shadow-2xl">
+        <button className="inline-flex items-center bg-gray-100 p-4 rounded text-black font-semibold py-4 px-4 border shadow-2xl">
           <span style={{ fontFamily: "Roboto" }}>Reserva tu lugar</span>
           <span className="material-icons">keyboard_arrow_right</span>
         </button>
