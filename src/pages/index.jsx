@@ -6,12 +6,15 @@ import Layout from "../components/layout"
 import IndexDescriptionSection from "../sections/IndexDescriptionSection"
 import IndexFeaturesSection from "../sections/IndexFeaturesSection"
 import IndexTemarySection from "../sections/IndexTemarySection"
+import IndexTutorsSection from "../sections/IndexTutorsSection"
+
 const IndexPage = () => (
   <Layout>
     <>
       <IndexDescriptionSection></IndexDescriptionSection>
       <IndexFeaturesSection></IndexFeaturesSection>
       <IndexTemarySection></IndexTemarySection>
+      <IndexTutorsSection></IndexTutorsSection>
     </>
   </Layout>
 )

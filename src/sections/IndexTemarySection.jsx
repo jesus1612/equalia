@@ -4,7 +4,7 @@ import Collapsible from "../components/Collapsible"
 
 const IndexTemarySection = () => {
   return (
-    <div className="w-screen absolute justify-center text-center container place-content-center v-screen bg-black py-5">
+    <div className="w-screen justify-center text-center container place-content-center v-screen bg-black py-5">
       <h1 className="text-3xl font-semibold text-white">
         ¿Qué aprenderás en este curso?
       </h1>
