@@ -3,7 +3,7 @@ import FeatureItem from "../components/FeatureItem"
 
 const IndexFeaturesSection = () => {
   return (
-    <div className="grid justify-center place-content-center v-screen">
+    <div className="mb-12 grid justify-center place-content-center v-screen">
       <h1 className="text-3xl text-center">
         ¿Qué incluye este curso?
       </h1>
@@ -34,7 +34,6 @@ const IndexFeaturesSection = () => {
           <span style={{ fontFamily: "Roboto" }}>Reserva tu lugar</span>
           <span className="material-icons">keyboard_arrow_right</span>
         </button>
-        <br /><br /><br />
       </div>
     </div>
   )

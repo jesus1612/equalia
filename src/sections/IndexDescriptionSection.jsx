@@ -2,7 +2,7 @@ import React from "react"
 
 const IndexDescriptionSection = () => {
   return (
-    <div className="h-screen :smgrid-cols-6 gap-4 grid justify-center place-content-center">
+    <div className="grid justify-center place-content-center" style={{height:"80vh"}}>
       <div className=" container text-center lg:col-start-2 lg:col-span-4">
         <h1 className="text-3xl">Aprende a programar con Python</h1>
         <p className="text-sx text-current">
