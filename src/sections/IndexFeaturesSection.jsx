@@ -3,11 +3,13 @@ import FeatureItem from "../components/FeatureItem"
 
 const IndexFeaturesSection = () => {
   return (
-    <div className="grid-cols-4 container v-screen content-center">
-      <h1 className="text-3xl text-center auto-cols-auto">
+    <div className="grid justify-center place-content-center v-screen">
+      <h1 className="text-3xl text-center">
         ¿Qué incluye este curso?
       </h1>
-      <div className="container">
+      <br />
+      <br />
+      <div className="container grid justify-center place-content-center">
         <FeatureItem
           logo="schedule"
           text={"Duración de 8 semanas"}
@@ -22,17 +24,17 @@ const IndexFeaturesSection = () => {
           text={"Ejercicios preseleccionados"}
         ></FeatureItem>
       </div>
-      <div>
-        <p className="text-base text-current text-center">
+        <br /><br />
+      <div className="container text-center">
+        <p className="text-base text-current">
           Fecha tentativa de inicio: <br />
           15 de febrero
         </p>
-        <div className="shadow-xl">
-          <button className="bg-gray-100 p-4 rounded text-black">
-            Inscribete a nuestro curso
-            <span className="material-icons">keyboard_arrow_right</span>
-          </button>
-        </div>
+        <button className="inline-flex items-center bg-gray-100 p-4 rounded text-black font-semibold py-4 px-4 border border-gray-100 shadow-2xl">
+          <span style={{ fontFamily: "Roboto" }}>Reserva tu lugar</span>
+          <span className="material-icons">keyboard_arrow_right</span>
+        </button>
+        <br /><br /><br />
       </div>
     </div>
   )
