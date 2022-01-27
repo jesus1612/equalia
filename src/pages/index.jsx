@@ -13,7 +13,7 @@ const IndexPage = () => (
   <Layout>
     <>
       <IndexDescriptionSection></IndexDescriptionSection>
-      <IndexFeaturesSection></IndexFeaturesSection>
+      <IndexFeatureSection></IndexFeatureSection>
       <IndexTemarySection></IndexTemarySection>
       <IndexTutorsSection></IndexTutorsSection>
       <IndexEvidenceSection></IndexEvidenceSection>
