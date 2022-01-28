@@ -13,7 +13,7 @@ const IndexEvidenceSection = () => {
         además, tendrás retroalimentación activa de tus tutores.
       </p>
       <div className="shadow-2xl bg-[#282623] rounded border border-black w-90 p-4">
-        <StaticImage src="../../public/resources/1.png" alt="No encontrada" className="object-contain h-40 sm:h-60 w-full" />
+        <StaticImage src="https://i.ibb.co/87Lh12q/1.png" alt="No encontrada" className="object-contain h-40 sm:h-60 w-full" />
         <br />
         <p className="font-semibold text-white text-lg">
           Asiste a clases en vivo
@@ -21,7 +21,7 @@ const IndexEvidenceSection = () => {
       </div>
       <br />
       <div className="shadow-2xl bg-[#282623] rounded pt-4 pb-0 border border-black w-90 p-4">
-        <StaticImage src="../../public/resources/2.png" alt="No encontrada" className="object-contain h-40 sm:h-60 w-full" />
+        <StaticImage src="https://i.ibb.co/tJNhcMD/2.png" alt="No encontrada" className="object-contain h-40 sm:h-60 w-full" />
         <br />
         <p className="font-semibold text-white text-lg">
           Recibe ayuda de tutores
@@ -29,7 +29,7 @@ const IndexEvidenceSection = () => {
       </div>
       <br />
       <div className='shadow-2xl bg-[#282623] rounded pt-4 pb-0 border border-black w-90 p-4'>
-        <StaticImage src="../../public/resources/3.png" alt="No encontrada" className="object-contain h-40 sm:h-60 w-full"/>
+        <StaticImage src="https://i.ibb.co/WsVZ7Gx/3.png" alt="No encontrada" className="object-contain h-40 sm:h-60 w-full"/>
         <br />
         <p className='font-semibold text-white text-lg'>
           Resuelve ejercicios
