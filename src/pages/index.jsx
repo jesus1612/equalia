@@ -11,13 +11,11 @@ import IndexEvidenceSection from "../sections/IndexEvidenceSection"
 
 const IndexPage = () => (
   <Layout>
-    <>
       <IndexDescriptionSection></IndexDescriptionSection>
       <IndexFeaturesSection></IndexFeaturesSection>
       <IndexTemarySection></IndexTemarySection>
       <IndexTutorsSection></IndexTutorsSection>
       <IndexEvidenceSection></IndexEvidenceSection>
-    </>
   </Layout>
 )
 

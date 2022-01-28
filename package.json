@@ -10,6 +10,7 @@
     "gatsby": "^2.32.13",
     "gatsby-link": "^4.6.0",
     "gatsby-plugin-gatsby-cloud": "^1.0.2",
+    "gatsby-plugin-google-analytics": "^4.6.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^0.7.2",
     "gatsby-plugin-manifest": "^2.12.1",
