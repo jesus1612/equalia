@@ -4,7 +4,7 @@ import { navigate } from "gatsby"
 
 const IndexFeaturesSection = () => {
   return (
-    <div className="mb-12 grid justify-center place-content-center v-screen">
+    <div className="mt-10 mb-12 grid justify-center place-content-center v-screen">
       <h1 className="text-3xl text-center">
         ¿Qué incluye este curso?
       </h1>
@@ -15,7 +15,7 @@ const IndexFeaturesSection = () => {
           logo="schedule"
           text={"Duración de 8 semanas"}
         ></FeatureItem>
-        <FeatureItem logo="videocam" text={"Clases en vivo"}></FeatureItem>
+        <FeatureItem logo="voice_chat" text={"2 clases por semana a través de Zoom"}></FeatureItem>
         <FeatureItem
           logo="people_outline"
           text={"Ayuda de tutores"}
@@ -27,11 +27,11 @@ const IndexFeaturesSection = () => {
       </div>
         <br /><br />
       <div className="container text-center">
-        <p className="text-base text-current">
+        <p className="text-current font-semibold text-black/25 tracking-wide">
           Fecha tentativa de inicio: <br />
           15 de febrero
         </p>
-        <button onClick={() => navigate("https://airtable.com/shrMX1Xn2ZLFqy7oA")} className="inline-flex items-center bg-gray-100 p-4 rounded text-black font-semibold py-4 px-4 shadow-2xl">
+        <button onClick={() => navigate("https://airtable.com/shrMX1Xn2ZLFqy7oA")} className="inline-flex items-center bg-gray-100 p-4 rounded text-black font-semibold py-4 px-4 shadow-2xl tracking-widest">
           <span style={{ fontFamily: "Roboto" }}>Reserva tu lugar</span>
           <span className="material-icons">keyboard_arrow_right</span>
         </button>

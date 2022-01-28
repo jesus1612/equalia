@@ -7,7 +7,7 @@ const FeatureItem = ({ logo, text }) => {
   return (
     <div className="flex">
       <span className="material-icons pr-2">{logo}</span>
-      <p className="text-base">{text}</p>
+      <p className="text-base font-medium">{text}</p>
     </div>
   )
 }

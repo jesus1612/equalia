@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
 
@@ -11,6 +12,9 @@ import IndexEvidenceSection from "../sections/IndexEvidenceSection"
 
 const IndexPage = () => (
   <Layout>
+      <Helmet>
+        <title>Bitaula</title>
+      </Helmet>
       <IndexDescriptionSection></IndexDescriptionSection>
       <IndexFeaturesSection></IndexFeaturesSection>
       <IndexTemarySection></IndexTemarySection>

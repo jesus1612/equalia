@@ -9,7 +9,7 @@ const Collapsible = ({ open, children, title }) => {
       <div className="">
         <button
           onClick={handleFilterOpening}
-          className="min-w-full bg-black flex justify-between border-b-4 rounded text-white font-semibold py-4 px-4"
+          className="min-w-full bg-black flex justify-between border-b-2 text-white font-semibold py-4 px-4"
         >
           <span className="text-sx font-semibold item-start" style={{ fontFamily: "Roboto" }}>{title}</span>
           {!isOpen ? (
@@ -21,7 +21,7 @@ const Collapsible = ({ open, children, title }) => {
 
         <div>
           <div>
-            {isOpen && <p className="text-sx text-white mt-4 pb-3">{children}</p>}
+            {isOpen && <p className="text-white/75 text-left mt-4 pb-3">{children}</p>}
           </div>
         </div>
       </div>
