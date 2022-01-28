@@ -53,6 +53,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        includeInDevelopment: true,
+        id: 2805639,
+        sv: 6,
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
