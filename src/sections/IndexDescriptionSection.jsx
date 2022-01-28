@@ -1,4 +1,5 @@
 import React from "react"
+import { navigate } from "gatsby"
 
 const IndexDescriptionSection = () => {
   return (
@@ -14,7 +15,7 @@ const IndexDescriptionSection = () => {
             programación; mezclamos sesiones en vivo y retos de código para
             practiques lo aprendido.
           </p>
-          <button className="inline-flex items-center bg-[#7e22ce] p-4 rounded text-white font-semibold py-4 px-4 shadow-2xl mb-6">
+          <button target="_blank" onClick={() => navigate("https://airtable.com/shrMX1Xn2ZLFqy7oA")} className="inline-flex items-center bg-[#7e22ce] p-4 rounded text-white font-semibold py-4 px-4 shadow-2xl mb-6">
             <span style={{ fontFamily: "Roboto" }}>
               Inscríbete a nuestro curso
             </span>
