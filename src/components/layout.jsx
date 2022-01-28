@@ -7,6 +7,7 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
+import MessengerChat from "./MessengerChat"
 
 import "./layout.css"
 
@@ -18,6 +19,7 @@ const Layout = ({ children }) => {
           margin: `0 auto`,
         }}
       >
+        <MessengerChat/>
         <main>{children}</main>
       </div>
     </>
