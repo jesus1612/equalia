@@ -15,11 +15,9 @@ const IndexDescriptionSection = () => {
             alt="No encontrada"
             className="max-w-xs my-8 object-contain"
           />
-          <h1 className="text-2xl md:text-3xl font-extrabold">Aprende a programar con Python</h1>
+          <h1 className="text-2xl md:text-3xl font-extrabold">Aprende a programar desde cero</h1>
           <p className="text-current">
-            Aprende a programar con nuestro curso de introducción a la
-            programación; mezclamos sesiones en vivo y retos de código para
-            practiques lo aprendido.
+            Aprende a programar con nuestro curso de programación para no programadores: asiste a clases en vivo, recibe ayuda de tutores y resuelve problemas con código.
           </p>
           <button target="_blank" onClick={() => navigate("https://airtable.com/shrMX1Xn2ZLFqy7oA")} className="inline-flex items-center bg-[#7e22ce] p-4 rounded text-white font-semibold py-4 px-4 shadow-2xl mb-6 tracking-widest">
             <span style={{ fontFamily: "Roboto" }}>

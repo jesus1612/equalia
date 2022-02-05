@@ -15,8 +15,14 @@ const IndexTemarySection = () => {
           tecnología.
         </p>
         {/* collapse */}
-        <Collapsible title="Algoritmos" open={false}>
-          En esta sección aprenderás qué es un algoritmo y cómo se relacionan con la programación.
+        <Collapsible title="Introducción a la programación" open={false}>
+          Descubre qué es la programación, dónde se aplica y más razones para aprender a programar.
+        </Collapsible>
+        <Collapsible title="Instalación de la paquetería y configuración del entorno de desarrollo" open={false}>
+          Instalarás toda la paquetería y software necesarios para tomar el curso y escribir programas en Python.
+        </Collapsible>
+        <Collapsible title="Introducción a algoritmos" open={false}>
+          Aprende la definición de algoritmo, cómo se relaciona con la programación y ten tu primer acercamiento a la solución algorítmica de problemas.
         </Collapsible>
         <Collapsible title="Tipos de datos basicos" open={false}>
           Conoce los tipos de datos fundamentales con los que puedes trabajar en Python.
@@ -25,18 +31,21 @@ const IndexTemarySection = () => {
           Por primera vez aprenderás estructuras de datos sencillas, pero poderosas para crear programas complejos.
         </Collapsible>
         <Collapsible title="Operadores de comparación" open={false}>
-          ¿9 es más grande que 13? Con los operadores de comparación podrás plantear estas preguntas en código.
+          Plantea comparaciones de tipo "igual que", "mayor que", "menor que" mediante código de programación.
+        </Collapsible>
+        <Collapsible title="Operadores lógicos" open={false}>
+          Haz uso de los operadores de comparación y combínalos con sentencias "or" y "and" para realizar comparaciones más complejas.
         </Collapsible>
         <Collapsible title="Condicionales" open={false}>
-          Comienza a escribir programas más complejos y responde a distintos escenarios.
+          Mezcla los operadores de comparación y los operadores lógicos para realizar programas más dinámicos.
         </Collapsible>
         <Collapsible title="Ciclos" open={false}>
-          Algunas cosas pueden ser repetitivas, por eso aprenderás a evitar esto con ciclos en Python.
+          Algunas cosas pueden ser repetitivas, por eso aprenderás a simplificar piezas de código.
         </Collapsible>
         <Collapsible title="Funciones" open={false}>
           Escribe código compacto y reutilizable, tus programas serán más limpios y tus compañeros te lo agradecerán.
         </Collapsible>
-        <Collapsible title="Programación orientada a objetos" open={false}>
+        <Collapsible title="Introducción a la programación orientada a objetos" open={false}>
           Conoce las bases de un paradigma que te ayudará a escribir código más legible y conciso.
         </Collapsible>
       </div>
